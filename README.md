@@ -39,7 +39,7 @@ You can easily integrate the Yubikey Verification into your authentication syste
 
 ## Configuration
 
-Run `php artisan config:publish monarobase/yubikey` and modify the config file with your own informations.
+Run `php artisan config:publish monarobase/yubikey` and modify the config file with your own information.
 
 
 ## Example
