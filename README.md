@@ -5,6 +5,7 @@ Yubikey for Laravel 4
 Increase the security of your forms with ease using a USB key
 
 [Buy a Yubikey](https://store.yubico.com)
+
 [Yubico API Key Generator](https://upgrade.yubico.com/getapikey/)
 
 
