@@ -1,0 +1,25 @@
+{
+    "name": "monarobase/yubikey",
+    "description": "Yubikey for Laravel 4",
+    "keywords": ["yubikey", "laravel", "laravel4"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jonathan Thuau",
+            "email": "jonathan@monarobase.net",
+            "homepage": "http://monarobase.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monarobase\\Yubikey": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
