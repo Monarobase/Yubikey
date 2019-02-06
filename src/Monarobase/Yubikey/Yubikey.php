@@ -90,8 +90,8 @@ class Yubikey {
 	{
 		$this->_id          = (isset($config['id']) && !empty($config['id'])) ? $id : Config::get('yubikey::CLIENT_ID');
 		$this->_key         = base64_decode((isset($config['key']) && !empty($config['key'])) ? $key : Config::get('yubikey::SECRET_KEY'));
-		$this->_https       = (isset($config['https'])) ? $config['https'] : 0;
-		$this->_httpsverify = (isset($config['httpsverify'])) ? $config['httpsverify'] : 1;
+		$this->_https       = (isset($config['https'])) ? $config['https'] : Config::get('yubikey::HTTPS');
+		$this->_httpsverify = (isset($config['httpsverify'])) ? $config['httpsverify'] : Config::get('yubikey::HTTPSVERIFY');
 
 		if (!$this->_id)
 		{
