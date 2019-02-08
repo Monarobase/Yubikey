@@ -17,5 +17,9 @@ return array(
 						),
 
 	'USER_AGENT' => 'Laravel Yubikey by Monarobase',
+	
+	'HTTPS' => 1,
+	
+	'HTTPSVERIFY' => 1,
 
 );
